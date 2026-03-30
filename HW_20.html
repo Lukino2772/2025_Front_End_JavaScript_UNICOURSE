@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="text">text change</p>
+<button id="btn">press</button>
+<script>
+let button = document.getElementById("btn")
+let paragraph = document.getElementById("text")
+button.addEventListener("click", function(){
+    paragraph.textContent = "text changed"
+})
+</script>
+</body>
+</html>

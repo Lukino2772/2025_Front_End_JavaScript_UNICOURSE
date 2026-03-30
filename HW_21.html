@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="text" id="userInput" placeholder="enter text">
+    <button id="showBtn">show</button>
+    <p id="display"></p>
+<script>
+    let input = document.getElementById("userInput")
+    let button = document.getElementById("showBtn")
+    let display = document.getElementById("display")
+    button.addEventListener("click", function (){
+        display.textContent = input.value
+    })
+</script>
+</body>
+</html>
